@@ -1,0 +1,27 @@
+version: '3.3'
+
+services:
+
+  web:
+    build:
+      context: .
+    depends_on:
+      - svc_db
+    volumes:
+      - .:/var/www
+    ports:
+      - "8888:8888"
+
+  svc_db:
+    image: mysql:5.7.19
+    environment:
+      MYSQL_DATABASE: kamilio
+      MYSQL_ROOT_PASSWORD: jhyswVqHXPZxKruA
+    volumes:
+      - vol_muradb:/var/lib/mysql
+    ports:
+      - "3306:3306"
+
+# Mounts
+volumes:
+  vol_muradb:

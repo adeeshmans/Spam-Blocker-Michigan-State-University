@@ -1,0 +1,112 @@
+/* Hompage */
+
+body{
+    background-color:#18453B ;
+    font-family: "Poppins", sans-serif;
+    letter-spacing:  0.2em; 
+}
+
+.container-fluid{
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    border-radius:20px;
+    box-shadow: rgba(29, 28, 28, 0.822) 10px 15px 25px;
+}
+
+/* Navigation */
+
+.navbar{
+    background-color:rgba(7, 155, 123, 0.753) ;
+    box-shadow:rgba(29, 28, 28, 0.822) 10px 10px 25px;
+}
+
+.nav-h1{
+    color: rgb(255, 255, 255);
+}
+
+.user-logo{
+    align-items:center;
+    display:flex;
+    border-style:none;
+    background-color: transparent ;
+}
+
+.nav-user{
+    font-size: 20px;
+}
+
+.nav-user:hover{
+    color:white;
+}
+
+.font-h1{
+    color:white;
+}
+
+main{
+    margin-top:10px;
+}
+
+.row{
+    display:flex;
+    justify-content:space-around;
+}
+
+.a-card:link, .a-card:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.card-1{
+    width: 20%;
+    color:white;
+    background-color: rgba(0, 202, 158, 0.753) ;
+    box-shadow: rgba(29, 28, 28, 0.822) 10px 10px 25px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 100px;
+    transition: 0.4s;
+}
+
+.card-1:hover{
+    background-color:rgba(0, 202, 158, 0.918);
+    transform: scale(1.1, 1.1);
+}
+
+.card-2{
+    width: 20%;
+    color:white;
+    background-color: rgba(0, 202, 158, 0.753) ;
+    box-shadow: rgba(29, 28, 28, 0.822) 10px 10px 25px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 100px;
+    transition: 0.4s;
+    
+}
+
+.card-2:hover{
+    background-color:rgba(0, 202, 158, 0.918);
+    transform: scale(1.1, 1.1);
+}
+
+.card-3 {
+    width: 20%;
+    color:white;
+    background-color: rgba(0, 202, 158, 0.753) ;
+    box-shadow: rgba(29, 28, 28, 0.822) 10px 10px 25px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 100px;
+    transition: 0.4s;
+}
+
+.card-3:hover{
+    background-color:rgba(0, 202, 158, 0.918);
+    transform: scale(1.1, 1.1);
+}
+
+.card-txt{
+padding-top:70px;
+padding-bottom:70px;
+}
